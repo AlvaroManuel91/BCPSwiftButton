@@ -1,0 +1,16 @@
+PODS:
+  - BCPSwiftButton (0.1.0)
+
+DEPENDENCIES:
+  - BCPSwiftButton (from `../`)
+
+EXTERNAL SOURCES:
+  BCPSwiftButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BCPSwiftButton: 2c8e780e18c68f07fae3ad4bb40fcd5e6f5b3825
+
+PODFILE CHECKSUM: f13717fa10dbc171b0ad39ad6a5e383593aafd86
+
+COCOAPODS: 1.5.3

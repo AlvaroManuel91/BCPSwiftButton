@@ -1,0 +1,6 @@
+framework module BCPSwiftButton {
+  umbrella header "BCPSwiftButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

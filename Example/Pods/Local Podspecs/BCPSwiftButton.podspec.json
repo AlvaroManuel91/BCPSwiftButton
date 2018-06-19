@@ -1,0 +1,22 @@
+{
+  "name": "BCPSwiftButton",
+  "version": "0.1.0",
+  "summary": "A short description of BCPSwiftButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alvaro Herrera/BCPSwiftButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alvaro Herrera": "aherrerc@everis.com"
+  },
+  "source": {
+    "git": "https://github.com/Alvaro Herrera/BCPSwiftButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BCPSwiftButton/Classes/**/*"
+}
