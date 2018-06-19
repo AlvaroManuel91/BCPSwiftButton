@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BCPSwiftButton_Tests' do
+  pod 'BCPSwiftButton', :path => '../'
+  
+  
+end
