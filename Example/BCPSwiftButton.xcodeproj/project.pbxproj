@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20C72046BF50DC6672B7335D /* BCPSwiftButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BCPSwiftButton.podspec; path = ../BCPSwiftButton.podspec; sourceTree = "<group>"; };
+		20C72046BF50DC6672B7335D /* BCPSwiftButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BCPSwiftButton.podspec; path = ../BCPSwiftButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25F77ABFDF23797E2560B094 /* Pods-BCPSwiftButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCPSwiftButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BCPSwiftButton_Tests/Pods-BCPSwiftButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32D17C8B089C0B42E2D02FD4 /* Pods-BCPSwiftButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCPSwiftButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BCPSwiftButton_Tests/Pods-BCPSwiftButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BCPSwiftButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCPSwiftButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B6F24180EA016ACFB9B800C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B6F24180EA016ACFB9B800C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A6B8462306D2A9EB9314C5A /* Pods_BCPSwiftButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCPSwiftButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D766C1FCE96FBD2FC36D6D71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D766C1FCE96FBD2FC36D6D71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

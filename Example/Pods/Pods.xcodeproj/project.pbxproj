@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B626E637E8E3703D749A9212A8B7BA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F99E19947AD241C1BEBD30022BE70 /* ReplaceMe.swift */; };
 		3096E81DE5E7A5E15A1B2C5883076224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		76D478359B59DCA35D8EA960E2AF8EDC /* BCPSwiftButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57108CCD32B38DA65622C5661FA28BE4 /* BCPSwiftButton-dummy.m */; };
 		8085CCA04A272D542819527A19B7EF31 /* Pods-BCPSwiftButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08515F535C895C0E89FE54F21C32A221 /* Pods-BCPSwiftButton_Tests-dummy.m */; };
 		9085797EE159E1E600F5B93090D76FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9812EB5174069D5A9AE5C2044768EB6B /* BCPSwiftButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A1255D3D3D638B3038376D8E392DFD /* BCPSwiftButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA2A82320D991CB00372DB4 /* CustomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2A82220D991CB00372DB4 /* CustomUIButton.swift */; };
 		BEF7F2D76D3E54806B0D698281C1E23B /* Pods-BCPSwiftButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 124550C9C38BAFCBF48B1CE48A10ECAB /* Pods-BCPSwiftButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -31,17 +31,17 @@
 		08515F535C895C0E89FE54F21C32A221 /* Pods-BCPSwiftButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BCPSwiftButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		124550C9C38BAFCBF48B1CE48A10ECAB /* Pods-BCPSwiftButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BCPSwiftButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		17E79006B78AE9CC5311AE93568B9C6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		267ABE0BCEA3226B390FA5E20CB6D4BC /* BCPSwiftButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BCPSwiftButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		267ABE0BCEA3226B390FA5E20CB6D4BC /* BCPSwiftButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BCPSwiftButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57108CCD32B38DA65622C5661FA28BE4 /* BCPSwiftButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BCPSwiftButton-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5EF76B32FD9B0B60AEA238961C65E667 /* Pods-BCPSwiftButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BCPSwiftButton_Tests.modulemap"; sourceTree = "<group>"; };
 		63EAF0A7618020F8E3EEA2AACF60BD56 /* Pods-BCPSwiftButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BCPSwiftButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7B3C0E04E024B061707EED8FB5FB2BB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		862F99E19947AD241C1BEBD30022BE70 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BCPSwiftButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96DC007189A4DEAA2F6FB2061EF3EB14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7B3C0E04E024B061707EED8FB5FB2BB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DC007189A4DEAA2F6FB2061EF3EB14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9A89202433BB312FFD94663EAFDE7009 /* BCPSwiftButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BCPSwiftButton.modulemap; sourceTree = "<group>"; };
-		9AAAC471E3E68F54C137B0194729FF51 /* BCPSwiftButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BCPSwiftButton.framework; path = BCPSwiftButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA2A82220D991CB00372DB4 /* CustomUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButton.swift; sourceTree = "<group>"; };
+		9AAAC471E3E68F54C137B0194729FF51 /* BCPSwiftButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCPSwiftButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C5F324AF75DF572C82AC1E8C997E89 /* Pods-BCPSwiftButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BCPSwiftButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF2133F5DAB9685704ABFF2591A2FBBA /* Pods-BCPSwiftButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BCPSwiftButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2A1255D3D3D638B3038376D8E392DFD /* BCPSwiftButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BCPSwiftButton-umbrella.h"; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		E82479FD72BEA8F7EE3FA108E8AF7765 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F448D3CBD72E08A904D29AFE9FAF211E /* BCPSwiftButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BCPSwiftButton.xcconfig; sourceTree = "<group>"; };
 		F6D130F128419CFD792E8515C7887723 /* Pods-BCPSwiftButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BCPSwiftButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FA3CF3C48529D17B8CF0F73AADB5D877 /* Pods_BCPSwiftButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BCPSwiftButton_Tests.framework; path = "Pods-BCPSwiftButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3CF3C48529D17B8CF0F73AADB5D877 /* Pods_BCPSwiftButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCPSwiftButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,12 +148,20 @@
 		87C88FB328AA5305F38755005163382F /* BCPSwiftButton */ = {
 			isa = PBXGroup;
 			children = (
-				862F99E19947AD241C1BEBD30022BE70 /* ReplaceMe.swift */,
+				9AA2A82120D991AD00372DB4 /* Classes */,
 				7B360DD93640F0AF24CB76F1048D1818 /* Pod */,
 				A870E67D4BF48F8BE33230F952CACE3B /* Support Files */,
 			);
 			name = BCPSwiftButton;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		9AA2A82120D991AD00372DB4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2A82220D991CB00372DB4 /* CustomUIButton.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		A870E67D4BF48F8BE33230F952CACE3B /* Support Files */ = {
@@ -243,6 +251,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					C449889379932FBFB709D61700E33083 = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -275,8 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA2A82320D991CB00372DB4 /* CustomUIButton.swift in Sources */,
 				76D478359B59DCA35D8EA960E2AF8EDC /* BCPSwiftButton-dummy.m in Sources */,
-				04B626E637E8E3703D749A9212A8B7BA /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F448D3CBD72E08A904D29AFE9FAF211E /* BCPSwiftButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -484,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F448D3CBD72E08A904D29AFE9FAF211E /* BCPSwiftButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
