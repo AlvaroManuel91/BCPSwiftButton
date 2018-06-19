@@ -30,7 +30,7 @@ BCPSwiftButton is an example project about custom UIButton. FAQ contact me.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'BCPSwiftButton/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'BCPSwiftButton' => ['BCPSwiftButton/Assets/*.png']
